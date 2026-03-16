@@ -8,3 +8,8 @@ The fault ride thru capability depends on several characteristics of the machine
 The idea is to vary parameters, perform simulations to evaluate the frt capability and report/present the result in a suitable way.
 
 The number of needed simulations can quickly grow, resulting in a time consuming process.
+
+## Model description
+The simulation model is a FMU (Functional Mock-Up) model exported from OpenModelica. The Python package FmPy is used to parametrise and run simulations on the model in Python.
+
+Results are saved as variables that can be cast to numpy arrays for further analysis.
