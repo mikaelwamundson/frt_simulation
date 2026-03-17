@@ -13,3 +13,10 @@ The number of needed simulations can quickly grow, resulting in a time consuming
 The simulation model is a FMU (Functional Mock-Up) model exported from OpenModelica. The Python package FmPy is used to parametrise and run simulations on the model in Python.
 
 Results are saved as variables that can be cast to numpy arrays for further analysis.
+
+## Dependiencies
+The project is dependent on the following packages
+- FmPy
+- Numpy
+- Matplotlib
+- Pandas
