@@ -9,6 +9,9 @@ The idea is to study the effect on FRT capability in the U-Q window, i.e the ope
 
 The time to build ut the U-Q plot should be optimised.
 
+## Alternative implementation
+Instead of restricting to the U-Q plane, the analysis could also be extended to the 3d space by varying the active power P, so that for each operating point (P, Q, U) the FRT capablity is calculated. Plotting of the FRT capability could then be done as contours in a selected plane; U-Q, P-Q or U-P.
+
 ## Model description
 The simulation model is a Functional Mock-up Unit (FMU) model created in, and exported from, OpenModelica. The Python package FmPy is used to parametrise and run time domain simulations on the model in Python.
 
