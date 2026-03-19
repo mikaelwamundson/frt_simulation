@@ -16,6 +16,9 @@ Instead of restricting to the U-Q plane, the analysis could also be extended to 
 The simulation model is a Functional Mock-up Unit (FMU) model created in, and exported from, OpenModelica. The Python package FmPy is used to parametrise and run time domain simulations on the model in Python.
 
 Results are saved as variables that can be cast to numpy arrays for further analysis.
+
+## Example calculation
+In the figure below the rotor angle of the machine is plotted for two different fault durations; 180 ms and 220 ms. At 180 ms the machine remains in synchronism with the power system, at 220 ms it falls out of phase.
 ![Example](FRT_figure.png)
 
 ## Dependiencies
