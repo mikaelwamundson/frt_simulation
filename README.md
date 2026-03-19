@@ -5,7 +5,7 @@ Each evaluation of the FRT capability consists of several simulations where the 
 
 The FRT capability depends on several characteristics of the machine and power system, i.e. the inertia of the machine, reactances of the machine and step-up transformer, degree of excitation, voltage level in the power system, etc.
 
-The idea is to study the effect on FRT capability in the U-Q window, i.e the operating point of the synchronous machine with respect to voltage and reactive power. At each different operating point perform a set of time domain simulations to evaluate the FRT capability. The result will be presented as "iso curves" (curves corresponding to the same FRT capability, in a U-Q plot.
+The idea is to study the effect on FRT capability in the U-Q window, i.e the operating point of the synchronous machine with respect to voltage and reactive power. At each different operating point perform a set of time domain simulations to evaluate the FRT capability. The result will be presented as "iso curves" (curves corresponding to the same FRT capability), in a U-Q plot. These will be created using the matplotlib contour() command.
 
 The time to build ut the U-Q plot should be optimised.
 
