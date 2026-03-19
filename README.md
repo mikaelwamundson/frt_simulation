@@ -16,7 +16,7 @@ Instead of restricting to the U-Q plane, the analysis could also be extended to 
 The simulation model is a Functional Mock-up Unit (FMU) model created in, and exported from, OpenModelica. The Python package FmPy is used to parametrise and run time domain simulations on the model in Python.
 
 Results are saved as variables that can be cast to numpy arrays for further analysis.
-![Example](FRT_example.png)
+![Example](FRT_figure.png)
 
 ## Dependiencies
 The project is dependent on the following packages
